@@ -1,0 +1,228 @@
+%	------------------------------------------------------------------------------
+%
+%		작성  : 2020년 7월 15일 첫 작업
+%
+%
+
+%	\documentclass[25pt, a1paper]{tikzposter}
+%	\documentclass[25pt, a0paper, landscape]{tikzposter}
+%	\documentclass[20pt, a1paper ]{tikzposter}
+	\documentclass[	25pt, 
+							a0paper, 
+%							portrait, %
+							landscape, %
+							margin=0mm, %
+							innermargin=10mm,  		%
+%							blockverticalspace=4mm, %
+							colspace=5mm, 
+							subcolspace=0mm
+							]{tikzposter}
+
+
+
+%	\documentclass[25pt, a1paper]{tikzposter}
+%	\documentclass[25pt, a1paper]{tikzposter}
+%	\documentclass[25pt, a1paper]{tikzposter}
+
+% 	12pt  14pt 17pt  20pt  25pt
+%
+%	a0 a1 a2
+%
+%	landscape  portrait
+%
+
+	%% Tikzposter is highly customizable: please see
+	%% https://bitbucket.org/surmann/tikzposter/downloads/styleguide.pdf
+
+	%	========================================================== 	Package
+		\usepackage{kotex}						% 한글 사용
+
+
+%% Available themes: see also
+%% https://bitbucket.org/surmann/tikzposter/downloads/themes.pdf
+%	\usetheme{Default}
+%	\usetheme{Rays}
+%	\usetheme{Basic}
+	\usetheme{Simple}
+%	\usetheme{Envelope}
+%	\usetheme{Wave}
+%	\usetheme{Board}
+%	\usetheme{Autumn}
+%	\usetheme{Desert}
+
+%% Further changes to the title etc is possible
+%	\usetitlestyle{Default}			%
+%	\usetitlestyle{Basic}				%
+%	\usetitlestyle{Empty}				%
+%	\usetitlestyle{Filled}				%
+%	\usetitlestyle{Envelope}			%
+%	\usetitlestyle{Wave}				%
+%	\usetitlestyle{verticalShading}	%
+
+
+%	\usebackgroundstyle{Default}
+%	\usebackgroundstyle{Rays}
+%	\usebackgroundstyle{VerticalGradation}
+%	\usebackgroundstyle{BottomVerticalGradation}
+%	\usebackgroundstyle{Empty}
+
+%	\useblockstyle{Default}
+%	\useblockstyle{Basic}
+%	\useblockstyle{Minimal}		% 이것은 간단함
+%	\useblockstyle{Envelope}		% 
+%	\useblockstyle{Corner}		% 사각형
+%	\useblockstyle{Slide}			%	띠모양  
+	\useblockstyle{TornOut}		% 손그림모양
+
+
+	\usenotestyle{Default}
+%	\usenotestyle{Corner}
+%	\usenotestyle{VerticalShading}
+%	\usenotestyle{Sticky}
+
+%	\usepackage{fontspec}
+%	\setmainfont{FreeSerif}
+%	\setsansfont{FreeSans}
+
+%	------------------------------------------------------------------------------ 제목
+
+	\title{ 찬불가 }
+
+	\author{ 2020년7월 }
+
+
+	%% Optional title graphic
+	%\titlegraphic{\includegraphics[width=7cm]{IMG_1934}}
+	%% Uncomment to switch off tikzposter footer
+	% \tikzposterlatexaffectionproofoff
+
+\begin{document}
+
+
+	\maketitle[
+					width=841mm,
+					linewidth = 2mm,
+					innersep=4mm,
+%					titletotopverticalspace=0mm, %
+%					titletoblockverticalspace=0mm, %
+					titletextscale =4, 
+				]
+
+		%		a0  841 - 1189
+		%		a1  594 - 841
+		%		a2  420 - 594
+
+
+
+	\begin{columns}
+
+		\column{0.2}
+
+%	------------------------------------------------------------------------------
+			\block{■  서예오체}
+			{
+					\setlength{\leftmargini}{7em}
+					\setlength{\labelsep} {1em}
+				\begin{LARGE}
+					\begin{itemize}
+					\item [1.] 전서
+					\item [2.] 예서
+					\item [3.] 해서
+					\item [4.] 행서
+					\item [5.] 초서
+					\end{itemize}
+				\end{LARGE}
+			}
+
+
+%	------------------------------------------------------------------------------
+		\block{■ 중국 서예가 }
+		{
+			\setlength{\leftmargini}{4em}			
+			\setlength{\labelsep}{1em} % horizontal space from bullet to text (as needed)
+%			\setlength{\partopsep}{0pt}
+%			\setlength{\parskip}{0pt}
+%			\setlength{\parsep}{0pt}
+%			\setlength{\topsep}{0pt}
+%			\setlength{\itemsep}{0pt}
+%			\setlength{\itemindent}{4em} % summary indentation: par 1.25cm + bullet 0.63 + magic number picked empirically (0.25cm)
+%			\setlength{\leftmargin}{0pt}			
+
+			\begin{LARGE}
+			\begin{itemize}
+			\item [청] 위창 오창석 1844-1927
+			\item [청] 제백석
+			\item [근대] 소세경
+			\end{itemize}
+			\end{LARGE}
+
+		}
+
+%	------------------------------------------------------------------------------
+		\block{■ 청법가 }
+		{
+			\setlength{\leftmargini}{7em}			
+			\setlength{\labelsep}{1em} % horizontal space from bullet to text (as needed)
+%			\setlength{\partopsep}{0pt}
+%			\setlength{\parskip}{0pt}
+%			\setlength{\parsep}{0pt}
+%			\setlength{\topsep}{0pt}
+%			\setlength{\itemsep}{0pt}
+%			\setlength{\itemindent}{4em} % summary indentation: par 1.25cm + bullet 0.63 + magic number picked empirically (0.25cm)
+%			\setlength{\leftmargin}{0pt}			
+
+			\begin{LARGE}
+			\begin{itemize}
+			\item [이름]
+			\item [전번]
+			\item [주소] 
+			\end{itemize}
+			\end{LARGE}
+
+		}
+
+
+
+	%	====== ====== ====== ====== ====== 
+		\column{0.2}
+
+%	------------------------------------------------------------------------------ 참고문헌
+		\block{■ 오창석 }
+			{				
+			\setlength{\leftmargini}{9em}			
+			\setlength{\labelsep}{1em} % horizontal space from bullet to text (as needed)
+
+			\begin{LARGE}
+			\begin{itemize}
+			\item [1.] 전서 반야심경
+			\item [6월 11일]
+			\item [6월 18일]
+			\item [6월 25일]
+			\end{itemize}
+			\end{LARGE}
+		}
+
+
+
+
+
+	\end{columns}
+
+
+
+
+\end{document}
+
+
+		\begin{huge}
+		\end{huge}
+
+		\begin{LARGE}
+		\end{LARGE}
+
+		\begin{Large}
+		\end{Large}
+
+		\begin{large}
+		\end{large}
+
